@@ -6,6 +6,7 @@ public class MeadianOfTwoSortedArrays {
         int[] nums1 = {2};
         int[] nums2 = {};
         double median = findMedianSortedArrays(nums1, nums2);
+        System.out.println(median);
     }
 
     private static double findMedianSortedArrays(int[] nums1, int[] nums2) {
